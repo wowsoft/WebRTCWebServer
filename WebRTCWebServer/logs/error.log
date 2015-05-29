@@ -1,0 +1,22 @@
+2015-05-29T09:42:49.558Z - error: Error: ER_BAD_FIELD_ERROR: Unknown column 'content1' in 'field list'
+    at Query.Sequence._packetToError (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\Connection.js:96:28)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:538:20)
+    --------------------
+    at Protocol._enqueue (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\Protocol.js:135:48)
+    at PoolConnection.query (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\database.js:22:20
+    at Handshake.onConnect (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\Pool.js:59:7)
+    at bound (domain.js:254:14)
+    at Handshake.runBound [as _callback] (domain.js:267:12)
+    at Handshake.Sequence.end (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Handshake.Sequence.OkPacket (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:105:8)
+    at Protocol._parsePacket (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (D:\workspace\node_js\WebRTCWebServer\WebRTCWebServer\node_modules\mysql\lib\protocol\Parser.js:77:12)

@@ -13,6 +13,7 @@
     "express-domain-middleware": "^0.1.0",
     "morgan": "^1.5.3",
     "mysql": "^2.7.0",
+    "node-gcm": "^0.9.15",
     "winston": "^1.0.0"
   }
 }
